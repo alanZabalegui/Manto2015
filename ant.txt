@@ -1,0 +1,385 @@
+Buildfile: C:\Users\Alan\Desktop\Manto2015\build.xml
+
+prepare:
+
+build:
+    [javac] C:\Users\Alan\Desktop\Manto2015\build.xml:358: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 66 source files to C:\Users\Alan\Desktop\Manto2015\build\WEB-INF\classes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:13: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:18: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:23: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:29: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUEliminarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:30: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUEliminarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarCiudad.java:28: error: cannot find symbol
+    [javac]     public ActionForward procesarEliminarCiudad(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUEliminarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:13: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:18: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:23: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:29: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUEliminarEstado
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:30: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUEliminarEstado
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarEstado.java:28: error: cannot find symbol
+    [javac]     public ActionForward procesarEliminarEstado(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUEliminarEstado
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:13: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:18: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:23: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:29: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUEliminarGente
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:30: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUEliminarGente
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarGente.java:28: error: cannot find symbol
+    [javac]     public ActionForward procesarEliminarGente(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUEliminarGente
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:13: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:18: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:23: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:29: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUEliminarRol
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:30: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUEliminarRol
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUEliminarRol.java:28: error: cannot find symbol
+    [javac]     public ActionForward procesarEliminarRol(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUEliminarRol
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:18: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:19: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:24: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:30: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUListarCiudades
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:31: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUListarCiudades
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarCiudades.java:29: error: cannot find symbol
+    [javac]     public ActionForward solicitarListarCiudades(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUListarCiudades
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:18: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:19: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:24: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:30: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUListarEstados
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:31: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUListarEstados
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarEstados.java:29: error: cannot find symbol
+    [javac]     public ActionForward solicitarListarEstados(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUListarEstados
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:18: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:19: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:24: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:30: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUListarGentes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:31: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUListarGentes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:29: error: cannot find symbol
+    [javac]     public ActionForward solicitarListarGentes(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUListarGentes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:79: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUListarGentes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:80: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUListarGentes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarGentes.java:78: error: cannot find symbol
+    [javac]     public ActionForward solicitarOrdNombres(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUListarGentes
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:18: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:19: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:24: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:30: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCUListarRoles
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:31: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCUListarRoles
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCUListarRoles.java:29: error: cannot find symbol
+    [javac]     public ActionForward solicitarListarRoles(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCUListarRoles
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCULogin.java:18: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionError;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCULogin.java:19: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionErrors;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCULogin.java:20: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:14: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:15: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessages;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:16: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForm;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:17: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionForward;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:18: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMapping;
+    [javac]                                ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:19: error: package org.apache.struts.actions does not exist
+    [javac] import org.apache.struts.actions.MappingDispatchAction;
+    [javac]                                 ^
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:24: error: cannot find symbol
+    [javac]         extends MappingDispatchAction {
+    [javac]                 ^
+    [javac]   symbol: class MappingDispatchAction
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:30: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCURegistrarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:31: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCURegistrarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:29: error: cannot find symbol
+    [javac]     public ActionForward solicitarRegistroCiudad(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCURegistrarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:53: error: cannot find symbol
+    [javac]                 ActionMapping mapping,
+    [javac]                 ^
+    [javac]   symbol:   class ActionMapping
+    [javac]   location: class MCURegistrarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:54: error: cannot find symbol
+    [javac]                 ActionForm form,
+    [javac]                 ^
+    [javac]   symbol:   class ActionForm
+    [javac]   location: class MCURegistrarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarCiudad.java:52: error: cannot find symbol
+    [javac]     public ActionForward procesarRegistroCiudad(
+    [javac]            ^
+    [javac]   symbol:   class ActionForward
+    [javac]   location: class MCURegistrarCiudad
+    [javac] C:\Users\Alan\Desktop\Manto2015\src\edu\uag\iidis\scec\control\MCURegistrarEstado.java:13: error: package org.apache.struts.action does not exist
+    [javac] import org.apache.struts.action.ActionMessage;
+    [javac]                                ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 100 errors
